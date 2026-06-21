@@ -12,7 +12,7 @@ function Footer() {
       <div className="footer-social">
 
         <a
-          href="https://www.linkedin.com/in/pranavdevane/"
+          href="YOUR_LINKEDIN_URL"
           target="_blank"
           rel="noreferrer"
         >
@@ -36,7 +36,10 @@ function Footer() {
         </a>
 
       </div>
-
+        <p className="footer-copy">
+        © 2026 All Rights Reserved |
+        <span> Pranav Devane</span>
+      </p>
     </footer>
   );
 }

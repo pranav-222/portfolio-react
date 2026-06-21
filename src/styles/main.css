@@ -1054,3 +1054,15 @@ footer span{
     font-size:28px;
     vertical-align:middle;
 }
+
+footer p{
+    text-align:center;
+    color:#ffffff;
+    margin-top:20px;
+    font-size:18px;
+}
+
+footer p span{
+    color:#00e5ff;
+    font-weight:600;
+}
