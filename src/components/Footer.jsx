@@ -1,23 +1,41 @@
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaEnvelope,
+  FaPhone
+} from "react-icons/fa";
+
 function Footer() {
   return (
     <footer>
 
-      <div className="footer-contact">
+      <div className="footer-social">
 
-        <span>
-          📧 prnv222@gmail.com
-        </span>
+        <a
+          href="https://www.linkedin.com/in/pranavdevane/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedinIn />
+        </a>
 
-        <span>
-          📞 9552116186
-        </span>
+        <a
+          href="https://github.com/pranav-222"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub />
+        </a>
+
+        <a href="mailto:prnv222@gmail.com">
+          <FaEnvelope />
+        </a>
+
+        <a href="tel:+919552116186">
+          <FaPhone />
+        </a>
 
       </div>
-
-      <p>
-        © 2026 All Rights Reserved |
-        <span> Pranav Devane</span>
-      </p>
 
     </footer>
   );
