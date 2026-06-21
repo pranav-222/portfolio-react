@@ -36,9 +36,10 @@ function Footer() {
         </a>
 
       </div>
-<h1 style={{ color: "red", textAlign: "center" }}>
-  TEST FOOTER
-</h1>
+        <p className="footer-copy">
+        © 2026 All Rights Reserved |
+        <span> Pranav Devane</span>
+      </p>
     </footer>
   );
 }
