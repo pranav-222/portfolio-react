@@ -1066,3 +1066,60 @@ footer p span{
     color:#00e5ff;
     font-weight:600;
 }
+
+@media (max-width: 992px){
+
+    .hero-image-wrapper{
+        margin-top:50px;
+    }
+
+    .floating-card{
+        transform:scale(.85);
+    }
+
+    .display-2{
+        font-size:3rem !important;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .display-2{
+        font-size:2.4rem !important;
+        text-align:center;
+    }
+
+    .hero-tags{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .btn{
+        width:100%;
+        margin-bottom:15px;
+    }
+
+    .profile-circle{
+        width:280px;
+        height:280px;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .display-2{
+        font-size:2rem !important;
+    }
+
+    .profile-circle{
+        width:220px;
+        height:220px;
+    }
+
+    .floating-card{
+        display:none;
+    }
+
+}
