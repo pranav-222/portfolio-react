@@ -1,112 +1,42 @@
 function Experience() {
   return (
-    <section id="experience" className="experience-section">
+    <section id="experience">
 
       <div className="container">
 
-        <div className="section-header">
+        <h2 className="text-center text-info mb-5">
+          Professional Experience
+        </h2>
 
-          <span className="section-tag">
-            CAREER JOURNEY
-          </span>
+        <div className="timeline-card">
 
-          <h2>
-            Professional Experience
-          </h2>
+          <h3>HCLTech – Ford Motor Company</h3>
+
+          <h5 className="text-info">
+            Analyst | May 2025 - Present
+          </h5>
+
+          <p>
+            Supporting enterprise Angular applications for Ford Motor Company,
+            performing root cause analysis, production issue resolution,
+            application monitoring, and backend enhancements using Java.
+          </p>
 
         </div>
 
-        <div className="career-timeline">
+        <div className="timeline-card mt-4">
 
-          {/* HCL */}
+          <h3>Scintillate Informatics</h3>
 
-          <div className="career-item">
+          <h5 className="text-info">
+            UI Developer | Jun 2024 - May 2025
+          </h5>
 
-            <div className="career-year">
-              2025 - Present
-            </div>
-
-            <div className="career-content">
-
-              <div className="company-header">
-
-                <h3>HCLTech</h3>
-
-                <span>
-                  Analyst
-                </span>
-
-              </div>
-
-              <h5>
-                Ford Motor Company
-              </h5>
-
-              <p>
-                Supporting enterprise Angular applications,
-                resolving production issues, performing root
-                cause analysis and implementing backend
-                enhancements using Java technologies.
-              </p>
-
-              <div className="skill-tags">
-
-                <span>Java</span>
-                <span>Angular</span>
-                <span>RCA</span>
-                <span>Production Support</span>
-                <span>Monitoring</span>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          {/* Scintillate */}
-
-          <div className="career-item">
-
-            <div className="career-year">
-              2024 - 2025
-            </div>
-
-            <div className="career-content">
-
-              <div className="company-header">
-
-                <h3>Scintillate Informatics</h3>
-
-                <span>
-                  UI Developer
-                </span>
-
-              </div>
-
-              <h5>
-                230+ Websites Delivered
-              </h5>
-
-              <p>
-                Developed and deployed responsive websites
-                across multiple industries using modern web
-                technologies while ensuring performance,
-                scalability and user experience.
-              </p>
-
-              <div className="skill-tags">
-
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>Bootstrap</span>
-                <span>WordPress</span>
-
-              </div>
-
-            </div>
-
-          </div>
+          <p>
+            Designed and delivered 230+ websites using HTML, CSS,
+            JavaScript, Bootstrap, WordPress, and IONOS while ensuring
+            responsive design and optimized user experience.
+          </p>
 
         </div>
 
@@ -115,3 +45,5 @@ function Experience() {
     </section>
   );
 }
+
+export default Experience;
