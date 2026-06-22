@@ -2,53 +2,76 @@ function About() {
   return (
     <section id="about" className="py-5">
       <div className="container">
-        <h2 className="text-center mb-5 text-info">
+
+        <h2 className="text-center section-title mb-5">
           About Me
         </h2>
 
-        <div className="row">
+        <div className="row align-items-center g-4">
 
-          <div className="col-lg-6">
+          <div className="col-lg-7">
 
-            <h3>Software Engineer</h3>
+            <span className="about-tag">
+              Software Engineer
+            </span>
 
-            <p className="mt-4">
-              Software Engineer with experience in Java,
-              Angular, Front-End Development and Application
-              Support. Currently contributing to enterprise
-              applications for Ford Motor Company through
-              HCLTech.
+            <h3 className="mt-3">
+              Building Scalable Web Applications &
+              Enterprise Solutions
+            </h3>
+
+            <p className="about-text mt-4">
+              Software Engineer with 2+ years of experience
+              in Java, Angular, Front-End Development and
+              Application Support.
             </p>
 
-            <p>
+            <p className="about-text">
+              Currently contributing to enterprise
+              applications for Ford Motor Company through
+              HCLTech, focusing on application stability,
+              issue resolution and technical analysis.
+            </p>
+
+            <p className="about-text">
               Previously worked as a UI Developer,
-              successfully delivering 230+ websites across
-              multiple industries using modern web technologies.
+              delivering 230+ production-ready websites
+              across multiple industries using modern web
+              technologies and responsive design principles.
             </p>
 
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-lg-5">
 
-            <div className="card about-card">
+            <div className="about-stats">
 
-              <h4 className="text-info">
-                Professional Highlights
-              </h4>
+              <div className="stat-box">
+                <h3>2+</h3>
+                <p>Years Experience</p>
+              </div>
 
-              <ul>
-                <li>2+ Years of Experience</li>
-                <li>230+ Websites Delivered</li>
-                <li>Ford Motor Company Project</li>
-                <li>Java & Angular Development</li>
-                <li>Application Support & RCA</li>
-              </ul>
+              <div className="stat-box">
+                <h3>230+</h3>
+                <p>Websites Delivered</p>
+              </div>
+
+              <div className="stat-box">
+                <h3>Ford</h3>
+                <p>Enterprise Project</p>
+              </div>
+
+              <div className="stat-box">
+                <h3>Java</h3>
+                <p>Angular Stack</p>
+              </div>
 
             </div>
 
           </div>
 
         </div>
+
       </div>
     </section>
   );
