@@ -1123,3 +1123,65 @@ footer p span{
     }
 
 }
+
+.section-title{
+    color:#00e5ff;
+    font-weight:700;
+}
+
+.about-tag{
+    display:inline-block;
+    padding:8px 16px;
+    background:rgba(0,229,255,0.1);
+    color:#00e5ff;
+    border:1px solid #00e5ff;
+    border-radius:30px;
+    font-size:14px;
+}
+
+.about-text{
+    color:#d6d6d6;
+    line-height:1.8;
+}
+
+.about-stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.stat-box{
+    background:#101827;
+    border:1px solid rgba(0,229,255,0.2);
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-5px);
+    border-color:#00e5ff;
+}
+
+.stat-box h3{
+    color:#00e5ff;
+    font-size:28px;
+    margin-bottom:8px;
+}
+
+.stat-box p{
+    margin:0;
+    color:#ffffff;
+}
+
+@media(max-width:768px){
+
+    .about-stats{
+        grid-template-columns:1fr;
+    }
+
+    .stat-box{
+        padding:20px;
+    }
+}

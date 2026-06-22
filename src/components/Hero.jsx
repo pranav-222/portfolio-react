@@ -40,11 +40,13 @@ function Hero() {
           <div className="col-lg-6">
 
             <h1 className="display-2 fw-bold">
-              SOFTWARE ENGINEER
-              <span className="text-info d-block">
-                Pranav Devane
-              </span>
-            </h1>
+  FULL STACK
+  <br />
+  SOFTWARE ENGINEER
+  <span className="text-info d-block">
+    Pranav Devane
+  </span>
+</h1>
 
             <h2 className="mt-3">
   <span id="typing"></span>
@@ -58,10 +60,10 @@ function Hero() {
             </div>
 
             <p className="mt-4 text-secondary">
-              Building enterprise applications for Ford Motor Company at
-              HCLTech, specializing in Java, Angular, application support,
-              and scalable web solutions.
-            </p>
+  Full Stack Software Engineer with 2+ years of experience
+  designing scalable web applications using Java, Spring Boot,
+  Angular, ReactJS, REST APIs and modern database technologies.
+</p>
 
             <div className="mt-4">
 
@@ -86,17 +88,17 @@ function Hero() {
 
               <div className="col-4">
                 <h2 className="text-info">2+</h2>
-                <p>Years Experience</p>
+<p>Years Experience</p>
               </div>
 
               <div className="col-4">
                 <h2 className="text-info">230+</h2>
-                <p>Websites</p>
+                <p>Websites Delivered</p>
               </div>
 
               <div className="col-4">
-                <h2 className="text-info">Ford</h2>
-                <p>Enterprise Client</p>
+                <h2 className="text-info">99.9%</h2>
+                <p>SLA Compliance</p>
               </div>
 
             </div>
