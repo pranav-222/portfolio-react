@@ -1,69 +1,76 @@
 function About() {
   return (
-    <section id="about" className="py-5">
+    <section id="about" className="about-section py-5">
       <div className="container">
 
-        <h2 className="text-center section-title mb-5">
-          About Me
-        </h2>
+        <div className="row align-items-center">
 
-        <div className="row align-items-center g-4">
+          {/* Left Side */}
+          <div className="col-lg-8">
 
-          <div className="col-lg-7">
-
-            <span className="about-tag">
-              Software Engineer
+            <span className="about-label">
+              ABOUT ME
             </span>
 
-            <h3 className="mt-3">
-              Building Scalable Web Applications &
-              Enterprise Solutions
-            </h3>
+            <h2 className="about-heading mt-3">
+              Building Enterprise Applications &
+              Modern Digital Experiences
+            </h2>
 
-            <p className="about-text mt-4">
-              Software Engineer with 2+ years of experience
-              in Java, Angular, Front-End Development and
-              Application Support.
+            <p className="about-description">
+              Software Engineer with over 2 years of experience
+              delivering scalable web applications, enterprise
+              solutions, and business-focused digital products.
+              Skilled in Java, Angular, Front-End Development,
+              and Application Support within enterprise
+              environments.
             </p>
 
-            <p className="about-text">
-              Currently contributing to enterprise
-              applications for Ford Motor Company through
-              HCLTech, focusing on application stability,
-              issue resolution and technical analysis.
+            <p className="about-description">
+              Currently contributing to enterprise applications
+              for Ford Motor Company through HCLTech, focusing
+              on application stability, issue resolution, root
+              cause analysis, and continuous improvement.
             </p>
 
-            <p className="about-text">
-              Previously worked as a UI Developer,
-              delivering 230+ production-ready websites
-              across multiple industries using modern web
-              technologies and responsive design principles.
+            <p className="about-description mb-0">
+              Previously worked as a UI Developer, successfully
+              delivering 230+ production-ready websites across
+              multiple industries while ensuring responsive
+              design, performance optimization, and seamless
+              user experiences.
             </p>
 
           </div>
 
-          <div className="col-lg-5">
+          {/* Right Side */}
+          <div className="col-lg-4 mt-4 mt-lg-0">
 
-            <div className="about-stats">
+            <div className="profile-card">
 
-              <div className="stat-box">
-                <h3>2+</h3>
-                <p>Years Experience</p>
+              <div className="profile-item">
+                <span>Experience</span>
+                <strong>2+ Years</strong>
               </div>
 
-              <div className="stat-box">
-                <h3>230+</h3>
-                <p>Websites Delivered</p>
+              <div className="profile-item">
+                <span>Projects</span>
+                <strong>230+ Websites</strong>
               </div>
 
-              <div className="stat-box">
-                <h3>Ford</h3>
-                <p>Enterprise Project</p>
+              <div className="profile-item">
+                <span>Current Role</span>
+                <strong>Analyst</strong>
               </div>
 
-              <div className="stat-box">
-                <h3>Java</h3>
-                <p>Angular Stack</p>
+              <div className="profile-item">
+                <span>Client</span>
+                <strong>Ford Motor Company</strong>
+              </div>
+
+              <div className="profile-item">
+                <span>Focus</span>
+                <strong>Java • Angular</strong>
               </div>
 
             </div>
