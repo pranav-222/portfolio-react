@@ -305,9 +305,10 @@ section{
     background:rgba(16,24,39,.8);
     backdrop-filter:blur(15px);
     border-radius:20px;
-    padding:30px;
+    padding:35px;
     height:100%;
-
+     display:flex;
+    flex-direction:column;
     box-shadow:0 8px 25px rgba(0,0,0,.35);
 
     transition:.4s;
@@ -1197,3 +1198,26 @@ footer p span{
     }
 }
 
+.project-list{
+    margin-top:18px;
+    padding-left:22px;
+}
+
+.project-list li{
+    color:#d1d5db;
+    line-height:1.8;
+    margin-bottom:12px;
+    font-size:16px;
+}
+
+.project-tech{
+    color:#9ca3af;
+    font-size:18px;
+    font-weight:500;
+}
+
+.project-card h4{
+    line-height:1.5;
+    font-size:24px;
+    margin-bottom:20px;
+}

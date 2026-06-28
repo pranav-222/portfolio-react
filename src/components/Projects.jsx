@@ -10,47 +10,116 @@ function Projects() {
 
         <div className="row g-4">
 
+          {/* Project 1 */}
+
           <div className="col-lg-6">
             <div className="project-card">
-              <h4>Restaurant Management System</h4>
 
-              <p>
-                Engineered a full-stack restaurant management solution
-                using ReactJS, Node.js, and MySQL.
-              </p>
+              <h4>
+                Enterprise Restaurant Management Platform
+                <span className="project-tech">
+                  {" "} | ReactJS, Node.js, MySQL
+                </span>
+              </h4>
+
+              <ul className="project-list">
+                <li>
+                  Engineered a comprehensive full-stack solution to streamline
+                  order processing, staff scheduling, and inventory management
+                  for large datasets.
+                </li>
+
+                <li>
+                  Implemented responsive user interfaces and optimized backend
+                  SQL queries, significantly improving overall operational
+                  efficiency.
+                </li>
+              </ul>
+
             </div>
           </div>
 
+          {/* Project 2 */}
+
           <div className="col-lg-6">
             <div className="project-card">
-              <h4>Volume Control Using Hand Gestures</h4>
 
-              <p>
-                Built a real-time gesture recognition system using
-                Python, OpenCV, MediaPipe, and Pycaw.
-              </p>
+              <h4>
+                Voice-Based Encryption System
+                <span className="project-tech">
+                  {" "} | Java, JDBC, SQL
+                </span>
+              </h4>
+
+              <ul className="project-list">
+                <li>
+                  Developed a secure data storage architecture using Java to
+                  protect sensitive information deployed on untrusted servers.
+                </li>
+
+                <li>
+                  Engineered robust access control and encryption mechanisms to
+                  strictly prevent unauthorized data retrieval and ensure
+                  compliance.
+                </li>
+              </ul>
+
             </div>
           </div>
 
+          {/* Project 3 */}
+
           <div className="col-lg-6">
             <div className="project-card">
-              <h4>Secure Intra-Vehicle Communication</h4>
 
-              <p>
-                Designed a vehicle network security system using
-                Python and Machine Learning.
-              </p>
+              <h4>
+                Secure Intra-Vehicle Communication
+                <span className="project-tech">
+                  {" "} | Python, Machine Learning
+                </span>
+              </h4>
+
+              <ul className="project-list">
+                <li>
+                  Designed a vehicle network security system utilizing Python
+                  and anomaly detection models to proactively identify
+                  potential cyber threats.
+                </li>
+
+                <li>
+                  Enhanced in-vehicle communication reliability by predicting
+                  and mitigating network vulnerabilities in real time.
+                </li>
+              </ul>
+
             </div>
           </div>
 
+          {/* Project 4 */}
+
           <div className="col-lg-6">
             <div className="project-card">
-              <h4>Voice-Based Encryption</h4>
 
-              <p>
-                Developed a secure data storage solution using
-                Java, JDBC and SQL.
-              </p>
+              <h4>
+                Real-Time Gesture Control System
+                <span className="project-tech">
+                  {" "} | Python, OpenCV, MediaPipe
+                </span>
+              </h4>
+
+              <ul className="project-list">
+                <li>
+                  Built an intuitive computer vision application to enable
+                  touch-free media volume control, enhancing digital
+                  accessibility.
+                </li>
+
+                <li>
+                  Integrated OpenCV and MediaPipe for accurate, real-time hand
+                  gesture recognition and dynamic interface interaction.
+                </li>
+              </ul>
+
             </div>
           </div>
 

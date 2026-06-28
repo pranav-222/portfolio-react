@@ -10,16 +10,16 @@ function Experience() {
 
         <div className="timeline-card">
 
-          <h3>HCLTech – Ford Motor Company</h3>
+          <h3>Savantis Solutions India Pvt. Ltd.
+           • Client: HCL Technologies | Ford Motor Company
+          </h3>
 
           <h5 className="text-info">
             Analyst | May 2025 - Present
           </h5>
 
           <p>
-            Supporting enterprise Angular applications for Ford Motor Company,
-            performing root cause analysis, production issue resolution,
-            application monitoring, and backend enhancements using Java.
+            Developed Java-based backend services, enhanced Angular applications, integrated REST APIs, resolved production issues, performed root cause analysis, and collaborated in Agile teams to deliver enterprise solutions.
           </p>
 
         </div>
@@ -33,9 +33,7 @@ function Experience() {
           </h5>
 
           <p>
-            Designed and delivered 230+ websites using HTML, CSS,
-            JavaScript, Bootstrap, WordPress, and IONOS while ensuring
-            responsive design and optimized user experience.
+            Developed responsive web applications using ReactJS, JavaScript, HTML5, CSS3, and Bootstrap. Optimized frontend performance, improved cross-browser compatibility, and implemented customized client solutions.
           </p>
 
         </div>
