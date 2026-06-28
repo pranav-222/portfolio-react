@@ -138,7 +138,7 @@ body::before{
 }
 
 section{
-    padding:60px 0;
+    padding:0px 0;
 }
 
 .skill-card{
@@ -636,8 +636,8 @@ footer{
 
     .hero-image-wrapper{
 
-        width:350px;
-        height:350px;
+        width:300px;
+        height:197px;
     }
 
     .floating-card{
@@ -1070,7 +1070,7 @@ footer p span{
 @media (max-width: 992px){
 
     .hero-image-wrapper{
-        margin-top:50px;
+        margin-top:40px;
     }
 
     .floating-card{
