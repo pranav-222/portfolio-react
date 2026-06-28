@@ -60,9 +60,10 @@ function Hero() {
             </div>
 
             <p className="mt-4 text-secondary">
-  Full Stack Software Engineer with 2+ years of experience
-  designing scalable web applications using Java, Spring Boot,
-  Angular, ReactJS, REST APIs and modern database technologies.
+  Full Stack Software Engineer with over 2 years of experience designing and developing scalable, high
+performance web applications. Proficient in modern frontend frameworks (Angular, ReactJS) and robust
+backend architectures (Java/Spring Boot, Node.js). Demonstrated ability to architect API integrations, optimize
+database performance, and deliver seamless user experiences for enterprise clients.
 </p>
 
             <div className="mt-4">

@@ -18,27 +18,15 @@ function About() {
             </h2>
 
             <p className="about-description">
-              Software Engineer with over 2 years of experience
-              delivering scalable web applications, enterprise
-              solutions, and business-focused digital products.
-              Skilled in Java, Angular, Front-End Development,
-              and Application Support within enterprise
-              environments.
+              Full Stack Software Engineer with over 2 years of experience designing and developing scalable, high-performance web applications using Java, Spring Boot, Angular, ReactJS, and Node.js. Passionate about building reliable, user-centric solutions that combine clean architecture, responsive design, and efficient backend systems.
             </p>
 
             <p className="about-description">
-              Currently contributing to enterprise applications
-              for Ford Motor Company through HCLTech, focusing
-              on application stability, issue resolution, root
-              cause analysis, and continuous improvement.
+              Currently contributing to enterprise applications for Ford Motor Company through HCLTech, where I work on Java-based backend services, Angular applications, REST API integrations, production issue resolution, application monitoring, and performance optimization within Agile teams.
             </p>
 
             <p className="about-description mb-0">
-              Previously worked as a UI Developer, successfully
-              delivering 230+ production-ready websites across
-              multiple industries while ensuring responsive
-              design, performance optimization, and seamless
-              user experiences.
+              Previously worked as a Front-End Software Engineer, developing responsive web applications, optimizing frontend performance, and delivering customized digital solutions for clients across diverse industries. Alongside my professional experience, I enjoy building end-to-end projects that strengthen my expertise in full-stack development and modern web technologies.
             </p>
 
           </div>
@@ -54,23 +42,24 @@ function About() {
               </div>
 
               <div className="profile-item">
-                <span>Projects</span>
-                <strong>230+ Websites</strong>
-              </div>
-
-              <div className="profile-item">
                 <span>Current Role</span>
                 <strong>Analyst</strong>
               </div>
 
               <div className="profile-item">
-                <span>Client</span>
+                <span>Enterprise Client</span>
                 <strong>Ford Motor Company</strong>
               </div>
 
               <div className="profile-item">
-                <span>Focus</span>
-                <strong>Java • Angular</strong>
+                <span>Core Stack</span>
+                <strong>Java • Spring Boot
+Angular • ReactJS</strong>
+              </div>
+
+              <div className="profile-item">
+                <span>Specialization</span>
+                <strong>Full Stack Development</strong>
               </div>
 
             </div>
