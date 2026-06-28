@@ -1221,3 +1221,256 @@ footer p span{
     font-size:24px;
     margin-bottom:20px;
 }
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media screen and (max-width:768px){
+
+section{
+    padding:45px 0;
+}
+
+/* Containers */
+
+.container{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/* All headings */
+
+h1,h2,h3,h4,h5{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
+/* Hero */
+
+#hero{
+    text-align:center;
+    min-height:auto;
+    padding:70px 0;
+}
+
+#hero h1{
+    font-size:2.8rem;
+    line-height:1.2;
+}
+
+.display-2{
+    font-size:2.6rem!important;
+}
+
+.hero-tags{
+    justify-content:center;
+}
+
+.hero-tags span{
+    margin:6px;
+}
+
+.btn{
+    width:100%;
+    margin-bottom:15px;
+}
+
+/* Profile Image */
+
+.hero-image-wrapper{
+
+    width:260px;
+    height:260px;
+
+    margin:50px auto 0;
+}
+
+.profile-circle{
+
+    width:240px;
+    height:240px;
+}
+
+/* About */
+
+.about-section{
+
+    text-align:center;
+}
+
+.about-heading{
+
+    font-size:2rem;
+}
+
+.about-description{
+
+    text-align:center;
+}
+
+.profile-card{
+
+    border-left:none;
+
+    border-top:3px solid #00e5ff;
+
+    padding:25px 0;
+
+    margin-top:40px;
+
+    text-align:center;
+}
+
+.profile-item{
+
+    margin-bottom:20px;
+}
+
+/* Skills */
+
+.skill-card{
+
+    margin-bottom:20px;
+
+    text-align:center;
+}
+
+.skill-card h4{
+
+    justify-content:center;
+}
+
+.skill-pill{
+
+    margin:6px;
+}
+
+/* Experience */
+
+.timeline-card{
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    text-align:center;
+}
+
+.timeline-card h3{
+
+    font-size:26px;
+}
+
+/* Projects */
+
+.project-card{
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+}
+
+.project-card h4{
+
+    font-size:22px;
+}
+
+.project-list{
+
+    padding-left:18px;
+
+    text-align:left;
+}
+
+.project-list li{
+
+    text-align:left;
+}
+
+/* Contact */
+
+.contact-heading{
+
+    text-align:center;
+}
+
+.contact-heading h2{
+
+    font-size:2.4rem;
+}
+
+.contact-form-wrapper{
+
+    padding:30px 20px;
+}
+
+.contact-card{
+
+    padding:25px;
+}
+
+/* Footer */
+
+.footer-contact{
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+.footer-social{
+
+    gap:20px;
+}
+
+footer p{
+
+    text-align:center;
+}
+
+}
+
+/* Small Phones */
+
+@media screen and (max-width:480px){
+
+.display-2{
+    font-size:2.1rem!important;
+}
+
+.about-heading{
+    font-size:1.8rem;
+}
+
+.contact-heading h2{
+    font-size:2rem;
+}
+
+.timeline-card h3{
+    font-size:22px;
+}
+
+.project-card h4{
+    font-size:20px;
+}
+
+.skill-pill{
+    padding:8px 14px;
+    font-size:13px;
+}
+
+.hero-image-wrapper{
+    width:220px;
+    height:220px;
+}
+
+.profile-circle{
+    width:200px;
+    height:200px;
+}
+
+}
