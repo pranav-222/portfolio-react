@@ -29,7 +29,7 @@ function Experience() {
           <h3>Scintillate Informatics</h3>
 
           <h5 className="text-info">
-            UI Developer | Jun 2024 - May 2025
+            UI Developer | May 2024 - May 2025
           </h5>
 
           <p>
